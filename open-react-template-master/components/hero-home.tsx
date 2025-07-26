@@ -1,7 +1,7 @@
 import Image from "next/image";
 import VideoThumb from "@/public/images/hero-image-01.jpg";
 import ModalVideo from "@/components/modal-video";
-import SoftwareDIMG from "@/public/images/InsightITsPics/SDLC.png";
+import SoftwareDIMG from "@/public/images/InsightITsPics/Insight IT Solutions.gif";
 
 export default function HeroHome() {
   return (
@@ -29,8 +29,8 @@ export default function HeroHome() {
                               <Image
                                   className="max-w-none"
                                   src={SoftwareDIMG}
-                                  width={446}
-                                  height={294}
+                                  width={970}
+                                  height={254}
                                   alt="Page illustration"
                               />
                           
